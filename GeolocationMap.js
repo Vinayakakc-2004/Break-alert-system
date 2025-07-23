@@ -22,7 +22,7 @@ const GeolocationMap = () => {
   const previousTime = useRef(Date.now());
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyApR8julC440Ttr3iiKmU-oRbmBuElsD2w',
+    googleMapsApiKey: '',
     libraries: ['geometry'],
   });
 
